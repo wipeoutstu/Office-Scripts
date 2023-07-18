@@ -1,0 +1,1 @@
+{"version":"0.2.0","body":"function main(workbook: ExcelScript.Workbook) {\r\n\tlet selectedSheet = workbook.getActiveWorksheet();\r\n\t// Clear conditional formats from range C:N on selectedSheet\r\n\tselectedSheet.getRange(\"C:N\").clearAllConditionalFormats();\r\n}","description":"","parameterInfo":null,"apiInfo":"{\"variant\":\"synchronous\",\"variantVersion\":2}"}
